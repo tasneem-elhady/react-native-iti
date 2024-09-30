@@ -1,0 +1,23 @@
+table {
+    border-bottom: 6px solid rgb(151, 61, 61);
+    border-right: 6px solid rgb(151, 61, 61);
+    border-left: 6px solid rgb(194, 130, 130);
+    border-top: 6px solid rgb(194, 130, 130);
+    box-shadow: 5px 5px 10px rgba(63, 8, 8, 0.2);
+    margin: 0 auto;    
+    border-spacing: 10px;
+}
+td {
+    border-top: 2px solid rgb(151, 61, 61);
+    border-left: 2px solid rgb(151, 61, 61);
+    width: 180px;
+}
+input[type='text'],input[type='password']{
+    width: 180px;
+}
+#dd{
+    width: 20px;
+}
+#yyyy{
+    width: 50px;
+}

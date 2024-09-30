@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+
+</head>
+<body style="background-color: rgb(220, 172, 172);">    
+    <table>
+        <form action="page5.html">
+            <tr>
+                <td>
+                    <label for="First Name">First Name</label>
+                </td>
+                <td>
+                    <input type="text" id="First Name" name="First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Last Name">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="Last Name" name="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="password" name="password">
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="text-align: center;">
+                    <label for="Gender"><b>Gender</b></label>
+                </td>
+                <td>
+                    <input name="Gender" value="male" id="m" type="radio">
+                    <label for="m">Male</label>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <input name="Gender" value="female" id="f" type="radio">
+                    <label for="f">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birthday">Birthday</label>
+                    <select name="birthday">
+                        <option hidden>[Select a Month]</option>
+                        <option>Jan</option>
+                        <option>Feb</option>
+                        <option>March</option>
+
+                    </select>
+                </td>
+                <td>
+                    <input type="text" id="dd" placeholder="dd" name="birthday"/>
+                    <input type="text" id="yyyy" placeholder="yyyy" name="birthday"/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"> 
+                    <label for="interests"><u><b>Interests</b></u></label>
+                </td>
+            </tr>
+            <tr>
+                <td > 
+                    <input name="interests" id="sports" value="Sports" type="checkbox"/>
+                    <label for="sports">Sports</label>
+                </td>
+                <td>
+                    <input name="interests" id="music" value="Music" type="checkbox"/>
+                    <label for="music">Music</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="interests" id="books" value="Books" type="checkbox"/>
+                    <label for="books">Books</label>
+                </td>
+                <td>
+                    <input name="interests" id="comp" value="Computer Stuff" type="checkbox"/>
+                    <label for="comp">Computer Stuff</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input name="interests" id="fashion" value="Fashion" type="checkbox"/>
+                    <label for="fashion">Fashion</label>
+                </td>
+                <td>
+                    <input name="interests" id="movies" value="Movies" type="checkbox"/>
+                    <label for="movies">Movies</label>
+                </td>
+            </tr>
+             <tr>
+                <td colspan="2" style="text-align: center;"> 
+                    <input type="submit" value="Submit">
+                </td>
+            </tr>       
+                 
+        </form>
+      </table>
+</body>
+</html>
