@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- <link href="../Styles/style.css" rel="stylesheet"> -->
+    <!-- <script src="../Scripts/script.js"></script> -->
+</head>
+<body>
+    <form action="welcomepage.html">
+        <fieldset>
+            <table>
+                <tr>
+                    <td style="text-align: center;">
+                        <label for="Username">User Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="Username"name="Username" placeholder="Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <label for="Email">Email:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="email"name="Email" placeholder="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <label for="Address">Address:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="address"name="Address" placeholder="Address">            
+                    </td>
+                </tr>                    
+                <tr>
+                    <td rowspan="2" style="text-align: center;">
+                        <label id="gender" for="Gender"><b>Gender</b></label>
+                    </td>
+                    <td>
+                        <input name="Gender" value="male" id="m" type="radio">
+                        <label for="m">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input name="Gender" value="female" id="f" type="radio">
+                        <label for="f">Female</label>
+                    </td>
+                </tr>
+            </table>
+            <button type="submit">Login</button>
+        </fieldset>
+    </form>
+</body>
+</html>

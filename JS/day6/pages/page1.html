@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="../styles/style.css" rel="stylesheet">
+</head>
+<body >    
+    <table>
+        <form>
+            <tr>
+                <td>
+                    <label for="Name">Enter your name:</label>
+                </td>
+                <td>
+                    <input type="text" id="Name" name="Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Enter your age:</label>
+                </td>
+                <td>
+                    <input type="text" id="age" name="age">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>select your Gender</label>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <input type="radio" id="male" name="gender" value="male">
+                    <img for="male" src="../styles/1.jpg"/>
+                </td>
+                <td >
+                    <input type="radio" id="female" name="gender" value="female">
+                    <img for="female" src="../styles/2.jpg"/>
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    <label for="color">Select your Fav color</label>
+                </td>
+                <td>
+                    <select id="color" name="color">
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                    </select>
+                </td>
+            </tr> 
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button onclick="register()">register</button>
+                </td>
+            </tr>         
+        </form>
+      </table>
+      <script src="../libraries/cookie.js"></script>
+      <script src="../scripts/script1.js"></script>
+      <script src="../scripts/linkedlist.js"></script>
+
+</body>
+</html>
