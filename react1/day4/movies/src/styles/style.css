@@ -1,0 +1,109 @@
+.nav-field{
+    color: #1E1D1D; font-size: 20px; font-family: Inter; font-weight: 400; word-wrap: break-word;
+}
+#nav-bar{
+    width: 98%; height: 100%; padding:10px 16px 10px 16px; background: #FAF0F0; border-radius: 12px; justify-content:left ; align-items:center ; display: inline-flex; gap:56px;
+}
+#root{
+    width: 95%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 36px 0px 36px ;
+    gap: 36px;
+}
+#cards-container{
+    display: inline-flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    width: 98%;
+    height: 455px;
+    padding: 8px;;
+    border-radius: 12px;
+    border: 1px black solid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 36px;
+    display: inline-flex;
+}
+#view-card{
+    /* height: 555px; */
+    padding: 8px;;
+    border-radius: 12px;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+}
+#card-text-content{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    display: inline-flex;
+}
+#title-date{
+    align-self: stretch;
+    height: 80px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    display: inline-block;
+}
+#title{
+    color: #1E1D1D;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+#date{
+    align-self: stretch;
+    color: #464444;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap:break-word;
+}
+#rate{
+    align-self: stretch;
+    color: #464444;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#plot-part{
+    align-self: stretch;
+    flex: 1 1 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    display: inline-flex;
+    flex-direction: column;
+}
+#plot{
+    color: #464444;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+#p{
+    padding-top:2px;
+    flex: 1 1 0;
+    align-self: stretch;
+    color: #464444;
+    font-size: 17px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
